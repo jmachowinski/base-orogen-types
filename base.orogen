@@ -41,6 +41,7 @@ import_types_from "base/wrappers/Eigen.hpp"
 
 if has_library?('base-lib')
     typekit.opaque_type '/base/geometry/Spline<3>', '/wrappers/geometry/Spline'
+    typekit.opaque_type '/base/geometry/Spline<2>', '/wrappers/geometry/Spline'
     typekit.opaque_type '/base/geometry/Spline<1>', '/wrappers/geometry/Spline'
 end
 typekit.opaque_type '/base/Vector2d', 'wrappers/Vector2d'
